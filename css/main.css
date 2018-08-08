@@ -6,3 +6,11 @@ img {
 .fade {
 	opacity: 0;
 }
+#overlay {
+  position: fixed;
+  background-color: red;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}

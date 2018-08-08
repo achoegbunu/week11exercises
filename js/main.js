@@ -22,3 +22,6 @@ $("img").hover(function() {
 $("#newStuff").click(function() {
 	$("#list").append("<li>some text</li>");
 });
+$("#final").click(function() {
+	$("body").append("<div id='overlay'></div>");
+});
